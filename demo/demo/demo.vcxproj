@@ -76,11 +76,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cc.cpp" />
     <ClCompile Include="gg.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="tt.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cc.h" />
     <ClInclude Include="gg.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
